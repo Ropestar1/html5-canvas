@@ -7,6 +7,7 @@ canvas.height = window.innerHeight;
 ctx.strokeStyle = '#BADA55';
 ctx.lineJoin = 'round';
 ctx.lineCap = 'round';
+ctx.globalCompositeOperation = 'multiply';
 
 // creating a variable so we can indicate when drawing is occurring (like on a click and hold)
 let isDrawing = false;
